@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "url-shortener"
+version = "0.1.0"
+description = ""
+authors = ["Rafał Płoszański <rafalploszanski@interia.pl>"]
+license = "Beerware"
+readme = "README.md"
+packages = [{include = "url_shortener"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
