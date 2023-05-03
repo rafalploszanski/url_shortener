@@ -5,13 +5,15 @@ description = ""
 authors = ["Rafał Płoszański <rafalploszanski@interia.pl>"]
 license = "Beerware"
 readme = "README.md"
-packages = [{include = "url_shortener"}]
+packages = [{ include = "url_shortener" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "4.2"
 pytest = "7.3.1"
 pytest-django = "4.5.2"
+flake8 = "6.0.0"
+flake8-django = "1.2"
 
 
 [build-system]
