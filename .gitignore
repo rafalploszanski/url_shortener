@@ -1,4 +1,5 @@
 .idea
-
+api.env
+postgres.env
 .Ds_Store
 
