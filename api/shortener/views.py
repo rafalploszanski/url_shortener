@@ -5,15 +5,15 @@ from . import models, serializers
 from .serializers import URLSerializer
 
 
-class CreateShortURLAPIView(generics.CreateAPIView):
+class CreateShortURLApiView(generics.CreateAPIView):
     queryset = models.URL.objects.all()
     serializer_class = serializers.OriginalURLSerializer
 
     def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data)
+        serializer = self.get_serializer(data=request.data, contex={"request": request})
         serializer.is_valid(raise_exception=True)
-        instance = serializer.save()
+        url = serializer.save()
 
-        short_url = URLSerializer(instance=instance, context={"request": request})
+        short_url = URLSerializer(instance=url)
 
         return Response(data=short_url.data, status=status.HTTP_201_CREATED)
