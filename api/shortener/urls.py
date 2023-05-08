@@ -5,5 +5,7 @@ from . import views
 app_name = "shortener"
 
 urlpatterns = [
-    path("urls/", views.CreateShortURLApiView.as_view(), name="shortener_url"),
+    path("api/v1/urls/", views.CreateShortURLApiView.as_view(), name="shortener_url"),
+    path('<str:short_url>/', views.ShortUrlRedirectView.as_view(), name='redirect'),
+
 ]
