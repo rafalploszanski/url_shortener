@@ -9,7 +9,7 @@ A Django URL shortener app is a web application that generates short, customized
 
 ## Demo
 
-[URL Shortener Heroku](https://protected-brushlands-01714.herokuapp.com/api/schema/swagger-ui//)
+[URL Shortener Heroku](https://protected-brushlands-01714.herokuapp.com/api/schema/swagger-ui/)
 
 
 ## Tech Stack
