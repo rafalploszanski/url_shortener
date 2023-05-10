@@ -97,7 +97,7 @@ To run tests, run the following command
 
 ## Coverage report
 
-![Coverage report](https://raw.githubusercontent.com/rafalploszanski/url_shortener/master/screenshots/coverage.png?token=GHSAT0AAAAAAB2732R7ZB6AWHJZLG44NR7IZC2WHGQ)
+![Coverage report](https://raw.githubusercontent.com/rafalploszanski/url_shortener/master/screenshots/coverage.png?token=GHSAT0AAAAAAB2732R7WTCBOA3GGHBTHVBEZC3YBMA)
 
 
 
