@@ -3,6 +3,7 @@
 
 # python
 **/*.pyc
+venv
 
 # db
 db.sqlite3
